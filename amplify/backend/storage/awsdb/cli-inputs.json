@@ -1,0 +1,14 @@
+{
+  "resourceName": "awsdb",
+  "tableName": "awsdb",
+  "partitionKey": {
+    "fieldName": "name",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "age",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

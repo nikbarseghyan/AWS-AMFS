@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsamfs-dev-94349-authRole",
+      "UnauthRoleArn": "arn:aws:iam::969294669520:role/amplify-awsamfs-dev-94349-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::969294669520:role/amplify-awsamfs-dev-94349-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-awsamfs-dev-94349-deployment",
+      "UnauthRoleName": "amplify-awsamfs-dev-94349-unauthRole",
+      "StackName": "amplify-awsamfs-dev-94349",
+      "StackId": "arn:aws:cloudformation:eu-central-1:969294669520:stack/amplify-awsamfs-dev-94349/ea4d3dc0-1aca-11ed-9482-069cbc938d24",
+      "AmplifyAppId": "d19zelbhlav0qt",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-awsamfs-dev-94349-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "awsamfs9542d65b": {}
+      },
+      "function": {
+        "awsfunc": {
+          "deploymentBucketName": "amplify-awsamfs-dev-94349-deployment",
+          "s3Key": "amplify-builds/awsfunc-61574c6238562b62785a-build.zip"
+        }
+      }
+    }
+  }
+}
