@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { Authenticator, Button } from '@aws-amplify/ui-react';
+import React from 'react';
+import { 
+  Authenticator,
+  Button,
+} from '@aws-amplify/ui-react';
 
 export const SignOut = () => {
-
   return (
     <Authenticator >
       {({ signOut, user }) => (

@@ -1,6 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { API } from 'aws-amplify';
-import { Button, TextField } from '@aws-amplify/ui-react';
+import { 
+  Button,
+  TextField,
+} from '@aws-amplify/ui-react';
 
 
 export const Post = () => {
@@ -14,8 +17,8 @@ export const Post = () => {
     API.post('awsapi', '/aws', {
       body: {
         name: awsName,
-        age: awsAge,
-        city: awsCity
+        age:  awsAge,
+        city: awsCity,
       }
     })
   }
